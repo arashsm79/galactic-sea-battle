@@ -26,10 +26,9 @@ java -Djdk.gtk.version=2 --module...
 
 Here's an example on how to compile and run and javafx client:
 
-javac --module-path $PATH_TO_FX --add-modules javafx.controls,javafx.fxml -g src/**/*.java -d ./bin
+javac --module-path $PATH_TO_FX --add-modules javafx.controls,javafx.fxml -d ./bin -cp src/lib/*.jar src/**/*.java
 
-java --module-path $PATH_TO_FX --add-modules javafx.controls,javafx.fxml -cp "src/lib/gson-2.8.6.jar:bin" App
-
+java -java --module-path $PATH_TO_FX --add-modules javafx.controls,javafx.fxml -cp bin:src/lib/gson-2.8.6.jar App
 "PATH_TO_FX" : "/path/to/your/javafx-sdk-*-/lib"
 
 Java Server:
