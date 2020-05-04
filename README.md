@@ -1,4 +1,4 @@
-#Galactic Sea Battle - Battleship with multiplayer server written in Java using Javafx and Sockets
+# Galactic Sea Battle - Battleship with multiplayer server written in Java using Javafx and Sockets
 
 Sea Battle - Battleship with multiplayer game server written in Java using Javafx and Sockets
 
@@ -36,5 +36,11 @@ Java Server:
 
 javac -g src/**/*.java -d ./bin
 
-java -cp "lib/gson-2.8.6.jar:bin\
+java -cp "lib/gson-2.8.6.jar:bin" App
+
+
+Screenshots:
+ ![Alt text](/screenshots/1.jpg?raw=true "Main Circuit")
+ ![Alt text](/screenshots/2.jpg?raw=true "Sub Circuit")
+ ![Alt text](/screenshots/3.jpg?raw=true "Sub Circuit")
 
