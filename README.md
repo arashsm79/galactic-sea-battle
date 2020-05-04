@@ -1,4 +1,4 @@
-Galactic Sea Battle - Battleship with multiplayer server written in Java using Javafx and Sockets
+#Galactic Sea Battle - Battleship with multiplayer server written in Java using Javafx and Sockets
 
 Sea Battle - Battleship with multiplayer game server written in Java using Javafx and Sockets
 
