@@ -310,7 +310,7 @@ public class StartUpController implements Initializable {
 
     //makes sure that all of the available fleet are selected before connecting to the server
     private boolean checkFleetSelection() {
-        if(numberOfShipsPlaced <= 11)
+        if(numberOfShipsPlaced == 11)
         {
             return true;
         }else
