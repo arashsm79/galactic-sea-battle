@@ -1,0 +1,122 @@
+
+.empty-cell {
+    -fx-background-color: #82aad4;
+    -fx-background-position: center;
+    -fx-background-size: stretch;
+    -fx-background-repeat: no-repeat;
+    -fx-border-color:gray;
+    -fx-border-width: 0.5;
+}
+
+.empty-cell:hover {
+    -fx-blend-mode: screen;
+
+}
+
+#soldier1 {
+    -fx-background-image: url('/resources/assets/ships/soldier/soldier_1.png');
+    -fx-border-width: 0;
+    
+
+}
+
+
+
+#cavalry1 {
+    -fx-background-image: url('/resources/assets/ships/cavalry/cavalry_01.png');
+    -fx-border-width: 0;
+
+
+}
+#cavalry2 {
+    -fx-background-image: url('/resources/assets/ships/cavalry/cavalry_02.png');
+    -fx-border-width: 0;
+     
+
+}
+
+#fort1 {
+    -fx-background-image: url('/resources/assets/ships/fort/fort_01.png');
+    -fx-border-width: 0;
+
+}
+#fort2 {
+    -fx-background-image: url('/resources/assets/ships/fort/fort_02.png');
+    -fx-border-width: 0;
+     
+
+}
+#fort3 {
+    -fx-background-image: url('/resources/assets/ships/fort/fort_03.png');
+    -fx-border-width: 0;
+     
+
+}
+#fort4 {
+    -fx-background-image: url('/resources/assets/ships/fort/fort_04.png');
+    -fx-border-width: 0;
+     
+
+}
+
+#headquarters1 {
+    -fx-background-image: url('/resources/assets/ships/hq/hq_01.png');
+    -fx-border-width: 0;
+     
+
+}
+#headquarters2 {
+    -fx-background-image: url('/resources/assets/ships/hq/hq_02.png');
+    -fx-border-width: 0;
+     
+
+}
+#headquarters3 {
+    -fx-background-image: url('/resources/assets/ships/hq/hq_03.png');
+    -fx-border-width: 0;
+     
+
+}
+#headquarters4 {
+    -fx-background-image: url('/resources/assets/ships/hq/hq_04.png');
+     
+    -fx-border-width: 0;
+
+}
+#headquarters5 {
+    -fx-background-image: url('/resources/assets/ships/hq/hq_05.png');
+    -fx-border-width: 0;
+     
+
+}
+#headquarters6 {
+    -fx-background-image: url('/resources/assets/ships/hq/hq_06.png');
+    -fx-border-width: 0;
+     
+
+}
+#headquarters7 {
+    -fx-background-image: url('/resources/assets/ships/hq/hq_07.png');
+    -fx-border-width: 0;
+     
+
+}
+#headquarters8 {
+    -fx-background-image: url('/resources/assets/ships/hq/hq_08.png');
+    -fx-border-width: 0;
+     
+
+}
+#headquarters9 {
+    -fx-background-image: url('/resources/assets/ships/hq/hq_09.png');
+    -fx-border-width: 0;
+     
+
+}
+#hq {
+    -fx-background-image: url('/resources/assets/ships/hq/hq_01.png');
+    -fx-border-width: 0;
+     
+
+}
+

@@ -1,0 +1,33 @@
+
+.button {
+
+    -fx-background-color: transparent;
+    -fx-background-position: center;
+    -fx-background-size: stretch;
+}
+
+.button:hover {
+
+    -fx-blend-mode: color-dodge;
+}
+
+
+#soldier {
+    -fx-background-image: url('/resources/assets/ships/soldier/soldier.png');
+    
+}
+
+#cavalry {
+    -fx-background-image: url('/resources/assets/ships/cavalry/cavalry.png');
+     
+}
+
+#fort {
+    -fx-background-image: url('/resources/assets/ships/fort/fort.png');
+     
+}
+
+#hq {
+    -fx-background-image: url('/resources/assets/ships/hq/hq.png');
+     
+}

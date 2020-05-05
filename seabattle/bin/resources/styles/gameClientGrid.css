@@ -1,0 +1,259 @@
+
+.empty-cell {
+    -fx-background-color: #82aad4;
+    -fx-background-position: center;
+    -fx-background-size: stretch;
+    -fx-background-repeat: no-repeat;
+    -fx-border-color:gray;
+    -fx-border-width: 0.5;
+}
+
+.empty-cell:hover {
+
+    -fx-blend-mode: darken;
+
+}
+
+
+.empty-cell:move {
+
+    -fx-blend-mode: color-burn;
+
+}
+
+
+.empty-cell:attack {
+
+    -fx-background-color: #cf7474;
+
+}
+
+.empty-cell:mark {
+
+    -fx-blend-mode: overlay;
+
+}
+
+#destroyed {
+
+    -fx-background-image: url('/resources/assets/x.png');
+    -fx-border-width: 0;
+}
+
+#nothingdestroyed {
+
+    -fx-background-image: url('/resources/assets/removesea.png');
+    -fx-border-width: 0;
+}
+
+#soldier1 {
+    -fx-background-image: url('/resources/assets/ships/soldier/soldier_1.png');
+    -fx-border-width: 0;
+    
+
+}
+
+#cavalry1 {
+    -fx-background-image: url('/resources/assets/ships/cavalry/cavalry_01.png');
+    -fx-border-width: 0;
+
+
+}
+#cavalry2 {
+    -fx-background-image: url('/resources/assets/ships/cavalry/cavalry_02.png');
+    -fx-border-width: 0;
+     
+
+}
+
+#fort1 {
+    -fx-background-image: url('/resources/assets/ships/fort/fort_01.png');
+    -fx-border-width: 0;
+
+}
+#fort2 {
+    -fx-background-image: url('/resources/assets/ships/fort/fort_02.png');
+    -fx-border-width: 0;
+     
+
+}
+#fort3 {
+    -fx-background-image: url('/resources/assets/ships/fort/fort_03.png');
+    -fx-border-width: 0;
+     
+
+}
+#fort4 {
+    -fx-background-image: url('/resources/assets/ships/fort/fort_04.png');
+    -fx-border-width: 0;
+     
+
+}
+
+#headquarters1 {
+    -fx-background-image: url('/resources/assets/ships/hq/hq_01.png');
+    -fx-border-width: 0;
+     
+
+}
+#headquarters2 {
+    -fx-background-image: url('/resources/assets/ships/hq/hq_02.png');
+    -fx-border-width: 0;
+     
+
+}
+#headquarters3 {
+    -fx-background-image: url('/resources/assets/ships/hq/hq_03.png');
+    -fx-border-width: 0;
+     
+
+}
+#headquarters4 {
+    -fx-background-image: url('/resources/assets/ships/hq/hq_04.png');
+     
+    -fx-border-width: 0;
+
+}
+#headquarters5 {
+    -fx-background-image: url('/resources/assets/ships/hq/hq_05.png');
+    -fx-border-width: 0;
+     
+
+}
+#headquarters6 {
+    -fx-background-image: url('/resources/assets/ships/hq/hq_06.png');
+    -fx-border-width: 0;
+     
+
+}
+#headquarters7 {
+    -fx-background-image: url('/resources/assets/ships/hq/hq_07.png');
+    -fx-border-width: 0;
+     
+
+}
+#headquarters8 {
+    -fx-background-image: url('/resources/assets/ships/hq/hq_08.png');
+    -fx-border-width: 0;
+     
+
+}
+#headquarters9 {
+    -fx-background-image: url('/resources/assets/ships/hq/hq_09.png');
+    -fx-border-width: 0;
+     
+
+}
+#hq {
+    -fx-background-image: url('/resources/assets/ships/hq/hq_01.png');
+    -fx-border-width: 0;
+     
+
+}
+
+
+#soldier1:destroyed {
+    -fx-background-image: url('/resources/assets/ships/soldier/soldier_1.png') ,url('/resources/assets/x.png');
+    -fx-border-width: 0;
+    
+
+}
+
+#cavalry1:destroyed {
+    -fx-background-image: url('/resources/assets/ships/cavalry/cavalry_01.png') ,url('/resources/assets/x.png');
+    -fx-border-width: 0;
+
+
+}
+#cavalry2:destroyed {
+    -fx-background-image: url('/resources/assets/ships/cavalry/cavalry_02.png') ,url('/resources/assets/x.png');
+    -fx-border-width: 0;
+     
+
+}
+
+#fort1:destroyed {
+    -fx-background-image: url('/resources/assets/ships/fort/fort_01.png') ,url('/resources/assets/x.png');
+    -fx-border-width: 0;
+
+}
+#fort2:destroyed {
+    -fx-background-image: url('/resources/assets/ships/fort/fort_02.png') ,url('/resources/assets/x.png');
+    -fx-border-width: 0;
+     
+
+}
+#fort3:destroyed {
+    -fx-background-image: url('/resources/assets/ships/fort/fort_03.png') ,url('/resources/assets/x.png');
+    -fx-border-width: 0;
+     
+
+}
+#fort4:destroyed {
+    -fx-background-image: url('/resources/assets/ships/fort/fort_04.png') ,url('/resources/assets/x.png');
+    -fx-border-width: 0;
+     
+
+}
+
+#headquarters1:destroyed {
+    -fx-background-image: url('/resources/assets/ships/hq/hq_01.png') ,url('/resources/assets/x.png');
+    -fx-border-width: 0;
+     
+
+}
+#headquarters2:destroyed {
+    -fx-background-image: url('/resources/assets/ships/hq/hq_02.png') ,url('/resources/assets/x.png');
+    -fx-border-width: 0;
+     
+
+}
+#headquarters3:destroyed {
+    -fx-background-image: url('/resources/assets/ships/hq/hq_03.png') ,url('/resources/assets/x.png');
+    -fx-border-width: 0;
+     
+
+}
+#headquarters4:destroyed {
+    -fx-background-image: url('/resources/assets/ships/hq/hq_04.png') ,url('/resources/assets/x.png');
+     
+    -fx-border-width: 0;
+
+}
+#headquarters5:destroyed {
+    -fx-background-image: url('/resources/assets/ships/hq/hq_05.png') ,url('/resources/assets/x.png');
+    -fx-border-width: 0;
+     
+
+}
+#headquarters6:destroyed {
+    -fx-background-image: url('/resources/assets/ships/hq/hq_06.png') ,url('/resources/assets/x.png');
+    -fx-border-width: 0;
+     
+
+}
+#headquarters7:destroyed {
+    -fx-background-image: url('/resources/assets/ships/hq/hq_07.png') ,url('/resources/assets/x.png');
+    -fx-border-width: 0;
+     
+
+}
+#headquarters8:destroyed {
+    -fx-background-image: url('/resources/assets/ships/hq/hq_08.png') ,url('/resources/assets/x.png');
+    -fx-border-width: 0;
+     
+
+}
+#headquarters9:destroyed {
+    -fx-background-image: url('/resources/assets/ships/hq/hq_09.png') ,url('/resources/assets/x.png');
+    -fx-border-width: 0;
+     
+
+}
+#hq:destroyed {
+    -fx-background-image: url('/resources/assets/ships/hq/hq_01.png') ,url('/resources/assets/x.png');
+    -fx-border-width: 0;
+     
+
+}
+
