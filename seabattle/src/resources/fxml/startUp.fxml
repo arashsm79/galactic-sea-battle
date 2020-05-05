@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" stylesheets="@../styles/main.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="StartUpController">
+   <children>
+      <MenuBar>
+         <menus>
+            <Menu mnemonicParsing="false" text="File">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#onNewMenuButtonAction" text="New" />
+                  <MenuItem mnemonicParsing="false" onAction="#onQuitMenuButtonAction" text="Quit" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Help">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#onHelpMenuButtonAction" text="About Galactic Sea Battle" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+      <SplitPane dividerPositions="0.15" orientation="VERTICAL" prefWidth="1280.0" VBox.vgrow="ALWAYS">
+         <items>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <HBox alignment="CENTER_RIGHT" nodeOrientation="LEFT_TO_RIGHT" prefHeight="100.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <FlowPane alignment="CENTER_LEFT" prefHeight="134.0" prefWidth="1041.0">
+                           <children>
+                              <Label text="Server:">
+                                 <FlowPane.margin>
+                                    <Insets left="30.0" />
+                                 </FlowPane.margin>
+                              </Label>
+                              <TextField fx:id="server_textField" text="localhost">
+                                 <FlowPane.margin>
+                                    <Insets left="10.0" />
+                                 </FlowPane.margin>
+                              </TextField>
+                              <Label text="Port:">
+                                 <FlowPane.margin>
+                                    <Insets left="30.0" />
+                                 </FlowPane.margin>
+                              </Label>
+                              <TextField fx:id="port_textField">
+                                 <FlowPane.margin>
+                                    <Insets left="10.0" />
+                                 </FlowPane.margin>
+                              </TextField>
+                              <Label text="Username:">
+                                 <FlowPane.margin>
+                                    <Insets left="30.0" />
+                                 </FlowPane.margin>
+                              </Label>
+                              <TextField fx:id="userName_label">
+                                 <FlowPane.margin>
+                                    <Insets left="10.0" />
+                                 </FlowPane.margin>
+                              </TextField>
+                              <MenuButton fx:id="gridSize_menu" mnemonicParsing="false" text="Board Size">
+                                 <items>
+                                    <MenuItem fx:id="boardSizeOption1_menuItem" mnemonicParsing="false" onAction="#boardSizeOption1_menuItemOnAction" text="10 x 10" />
+                                    <MenuItem fx:id="boardSizeOption2_menuItem" mnemonicParsing="false" onAction="#boardSizeOption2_menuItemOnAction" text="15 x 15" />
+                                    <MenuItem fx:id="boardSizeOption3_menuItem" mnemonicParsing="false" onAction="#boardSizeOption3_menuItemOnAction" text="20 x 20" />
+                                 </items>
+                                 <FlowPane.margin>
+                                    <Insets left="20.0" />
+                                 </FlowPane.margin>
+                              </MenuButton>
+                              <Button fx:id="connect_button" mnemonicParsing="false" onAction="#connect_buttonOnAction" text="Connect">
+                                 <FlowPane.margin>
+                                    <Insets left="20.0" />
+                                 </FlowPane.margin>
+                              </Button>
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </FlowPane>
+                        <ProgressIndicator fx:id="connectProgress_ProgressIndicator" visible="false" HBox.hgrow="ALWAYS" />
+                        <FlowPane alignment="CENTER_LEFT" prefHeight="134.0" prefWidth="265.0">
+                           <children>
+                              <Label fx:id="chosenUnit_label" text="Chosen Unit">
+                                 <FlowPane.margin>
+                                    <Insets left="20.0" />
+                                 </FlowPane.margin>
+                              </Label>
+                              <CheckBox fx:id="horizontal_checkBox" mnemonicParsing="false" text="Horizontal">
+                                 <padding>
+                                    <Insets left="20.0" />
+                                 </padding>
+                              </CheckBox>
+                           </children>
+                        </FlowPane>
+                     </children>
+                  </HBox>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="gridsAnchorPane" minHeight="0.0" minWidth="0.0">
+               <children>
+                  <SplitPane dividerPositions="0.5" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <items>
+                        <AnchorPane minHeight="0.0" minWidth="0.0">
+                           <children>
+                              <GridPane fx:id="client_grid" gridLinesVisible="true" layoutX="174.0" layoutY="151.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+
+
+                              </GridPane>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane minHeight="0.0" minWidth="0.0">
+                           <children>
+                              <GridPane fx:id="fleet_grid" hgap="50.0" vgap="60.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 
+                                 
+                              </GridPane>
+                           </children>
+                        </AnchorPane>
+                     </items>
+                  </SplitPane>
+               </children>
+            </AnchorPane>
+         </items>
+      </SplitPane>
+   </children>
+</VBox>
