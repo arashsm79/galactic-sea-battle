@@ -39,7 +39,10 @@ java -cp "lib/gson-2.8.6.jar:bin" App
 
 
 Screenshots:
- ![Alt text](/screenshots/1.jpg?raw=true "Main Circuit")
- ![Alt text](/screenshots/2.jpg?raw=true "Sub Circuit")
- ![Alt text](/screenshots/3.jpg?raw=true "Sub Circuit")
+ ![Alt text](/screenshots/1.png?raw=true "Startup")
+ ![Alt text](/screenshots/2.png?raw=true "Game")
+ ![Alt text](/screenshots/3.png?raw=true "Game")
+ ![Alt text](/screenshots/4.png?raw=true "Game")
+ ![Alt text](/screenshots/5.png?raw=true "Game")
+ ![Alt text](/screenshots/0.png?raw=true "Server")
 
