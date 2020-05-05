@@ -14,11 +14,14 @@ The server uses a HTTP like protocol to communicate with the clients. You can de
 
 I've tried my best to leave a comment on most parts of the code.
 
-Dependencies:
+# Dependencies:
 
 -Gson
 
 -Javafx
+
+# Compiling
+
 
 If you're facing gtk problems(it's a known bug with some versions of javafx), change to gtk 2. just add the following Vm argument after the java command:
 
@@ -38,7 +41,7 @@ javac -g src/**/*.java -d ./bin
 java -cp "lib/gson-2.8.6.jar:bin" App
 
 
-Screenshots:
+# Screenshots:
  ![Alt text](/screenshots/1.png?raw=true "Startup")
  ![Alt text](/screenshots/2.png?raw=true "Game")
  ![Alt text](/screenshots/3.png?raw=true "Game")
