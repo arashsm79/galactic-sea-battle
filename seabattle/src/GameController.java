@@ -354,8 +354,10 @@ public class GameController implements Initializable {
 
                 //update the client grid
                 Platform.runLater(() -> {
-                    placeMovedShip(destionationPoints, sourceCell);
+
+                    markMoveableSpots(actionType.getActionButton(), false);
                     cancelActionType();
+                    placeMovedShip(destionationPoints, sourceCell);
                    
                 });
 
