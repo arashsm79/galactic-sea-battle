@@ -24,22 +24,22 @@ I've tried my best to leave a comment on most parts of the code.
 
 
 If you're facing gtk problems(it's a known bug with some versions of javafx), change to gtk 2. just add the following Vm argument after the java command:
-
+```bash
 java -Djdk.gtk.version=2 --module...
+```
 
 Here's an example on how to compile and run and javafx client:
-
+```bash
 javac --module-path $PATH_TO_FX --add-modules javafx.controls,javafx.fxml -d ./bin -cp src/lib/*.jar src/**/*.java
-
 java -java --module-path $PATH_TO_FX --add-modules javafx.controls,javafx.fxml -cp bin:src/lib/gson-2.8.6.jar App
 "PATH_TO_FX" : "/path/to/your/javafx-sdk-*-/lib"
+```
 
 Java Server:
-
+```bash
 javac -g src/**/*.java -d ./bin
-
 java -cp "lib/gson-2.8.6.jar:bin" App
-
+```
 
 # Screenshots:
  ![Alt text](/screenshots/1.png?raw=true "Startup")
